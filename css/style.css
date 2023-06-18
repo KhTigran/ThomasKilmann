@@ -1,0 +1,97 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: Montserrat;
+	color: rgb(0, 0, 0);
+	background-color: #ffffff;
+    scroll-behavior: smooth;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;color: rgb(0, 0, 0); cursor: pointer;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 800;}
+h1{font-size: 50px;}
+h2{font-size: 42px;}
+h3{font-size: 32px;}
+h4{font-size: 28px;}
+/*--------------------*/
+
+
+.container {
+	width:  80%;
+	margin: 0 auto;
+    
+}
+
+.title{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.answ{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border: 0;
+}
+
+.btn{
+    padding: 10px 20px 10px 20px;
+}
+
+label{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.questionCounter{
+	margin-top: 15px;
+}
+
+.label{
+	text-align: center;
+	font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.link{
+	margin-top: 25px;
+	display: block;
+	text-align: center;
+	text-decoration:underline;
+	font-size: 18px;
+}
