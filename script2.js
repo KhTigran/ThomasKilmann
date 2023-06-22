@@ -98,8 +98,17 @@ document.addEventListener("DOMContentLoaded", function() {
         type: "line",
         label: "Верхний предел",
         data: [7.5,9,8.5,7.5,6,12],
-        borderColor: "rgba(255, 0, 0, 1)",
-        backgroundColor: "rgba(255, 0, 0, 0.2)",
+        
+        borderColor: "rgba(0, 0, 0, 1)",
+        backgroundColor: "rgba(0, 0, 0, 0.2)",
+        borderWidth: 2,
+        fill: false
+      },
+      {
+        label: "Нижний предел",
+        data: [3.5,5.5,4.5,4.5,3,0],
+        borderColor: "rgba(0, 0, 0, 1)",
+        backgroundColor: "rgba(0, 0, 0, 0.2)",
         borderWidth: 2,
         fill: false
       },
@@ -108,17 +117,10 @@ document.addEventListener("DOMContentLoaded", function() {
         data: [forc, probl, compr, izbeg, sglaz],
         backgroundColor: ["none"],
         borderColor: ["rgba(0, 146, 166, 1)", "rgba(0, 146, 166, 1)", "rgba(0, 146, 166, 1)", "rgba(0, 146, 166, 1)", "rgba(0, 146, 166, 1)", ],
-        borderWidth: 2,
-        fill: false
-      },
-      {
-        label: "Нижний предел",
-        data: [3.5,5.5,4.5,4.5,3,0],
-        borderColor: "rgba(0, 255, 0, 1)",
-        backgroundColor: "rgba(0, 255, 0, 0.2)",
-        borderWidth: 2,
+        borderWidth: 3,
         fill: false
       }
+      
     ]
   };
   
